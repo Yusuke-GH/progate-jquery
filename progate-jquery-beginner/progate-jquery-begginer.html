@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <!-- ボタンをクリックしてh1タグを隠す -->
+    <hr>
+        <div id="hide-text" class="btn">説明を隠す</div>
+        <h1 id="text-hide">ボタンをクリックしてh1タグを隠す。</h1>
+    <hr>
+
+    <!-- ボタンをクリックして、h1タグのCSSスタイリングを変更する。 -->
+    <hr>
+        <div id="change-css" class="btn">CSSを変更</div>
+        <h1 id="text-style">ボタンをクリックして、h1タグのCSSスタイリングを変更する。</h1>
+    <hr>
+
+    <!-- ボタンをクリックして、h1タグ内の文字列を変更する。 -->
+    <hr>
+        <div id="change-text" class="btn">文字列を変更</div>
+        <h1 id="text-text">h1タグ内の文字列を変更する。</h1>
+    <hr>
+
+    <!-- ボタンをクリックして、h1タグ内の要素を変更する。 -->
+    <hr>
+        <div id="change-html" class="btn">HTMLを変更</div>
+        <h1 id="text-html">h1タグのかたまり → aタグのかたまり に変更する。</h1>
+    <hr>
+
+    <!-- クリックされたリストの色を変更する。 -->
+    <hr>
+        <h1 id="title-list">クリックされたリストにCSSスタイリングを適用する。</h1>
+        <ul>
+            <li class="list-item">リスト1</li>
+            <li class="list-item">リスト2</li>
+            <li class="list-item">リスト3</li>
+        </ul>
+    <hr>
+
+    <!-- クリックされた要素に対して「CSSスタイリング・タグのかたまりの変更」と「フェードアウト」をする。 -->
+    <hr>
+        <div class="btn-methodchain">ボタンをクリック</div>
+        <h1 id="title-several-change">クリックすると、対象要素に対して<br>「CSSスタイリング・タグのかたまりの変更」と「フェードアウト」を適用する。</h1>
+        <p id="text-several-change">メソッドチェーンを用いて、上記同様の動きをつける。</p>
+    <hr>
+
+    <!-- クリックすると選択的に要素を指定して、動きつけを適用する。 -->
+    <hr>
+        <!-- find-method -->
+        <div id="find-method" class="btn">findメソッド</div>
+        <!-- children-method -->
+        <div id="children-method" class="btn">childrenメソッド</div>
+        <div id="wrapper">
+            <a href="#">find, children</a>
+            <div>
+                <a href="#">find</a>
+            </div>
+            <h1 id="title-find-children">クリックすると選択的に要素を指定して、動きつけを適用する。</h1>
+        </div>
+    <hr>
+
+    <!-- ホバー中、文字列をフェードインする -->
+    <hr>
+        <h1 id="title-hover">ホバー中、文字列をフェードインする。</h1>
+        <div id ="language-wrapper">
+            <h1 class="language-title">jQueryとは?</h1>
+            <p class="language-text">
+                JavaScriptのライブラリの1つです。ユーザーのクリックに反応して表示されるフォームや、アニメーションなど、HTMLとCSSだけでは実現できなかった様々な動きを表現することができます。
+            </p>
+        </div>
+    <hr>
+    <script src="js/script.js"></script>
+</body>
+</html>
